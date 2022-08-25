@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ashutosh102/Musify.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ashutosh102/Musify/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/Ashutosh102/Musify#readme",
+  "homepage": 
   "dependencies": {
     "express": "^4.17.1",
     "express-session": "^1.16.2",
