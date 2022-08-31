@@ -5,7 +5,7 @@ var mongoClient = require("mongodb").MongoClient;
 var db;
 url =
   process.env.MONGO_URL ||
-  "mongodb+srv://roshan:9939105936@music-app-db-hexhh.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb://localhost:27017/";
 mongoClient.connect(url, function (err, client) {
   if (err) throw err;
   db = client.db("musify");
